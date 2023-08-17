@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          테스트 by 뭐야&nbsp;
+          테스트230817-1 by 뭐야&nbsp;
           <code className={styles.code}>app/page.js</code>
         </p>
         <div>
