@@ -3,13 +3,20 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
+
+
+
+
+
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          테스트230817-1 by 뭐야&nbsp;
-          <code className={styles.code}>app/page.js</code>
+          230817 by Min Yeo &nbsp;
+          <code className={styles.code}>v0.1</code>
         </p>
         <div>
+
+
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
@@ -31,9 +38,9 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/min.project.svg"
           alt="Next.js Logo"
-          width={180}
+          width={260}
           height={37}
           priority
         />
@@ -41,55 +48,76 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://wanted.dualssbb.com/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <h2>원티드 지도검색 <span>-&gt;</span></h2>
+          <h4> React + JAVA </h4>
+          <p>몰래 사용한 비공식 wanted API서버에서 데이터 발췌 (계속 제작중..)</p>
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://sbbcffffs.tistory.com/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <h2>개발블로그 <span>-&gt;</span></h2>
+          <h4> Next.js + MongoDB </h4>
+          <p>개발과 관련된 개인블로그, 다만 질떨어지는 내용을 검색되지 않게 하기위해 공사준비중</p>
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://blog.naver.com/nishitetsu/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
-        >
+          >
           <h2>
-            Templates <span>-&gt;</span>
+            개인블로그 <span>-&gt;</span>
           </h2>
-          <p>Explore the Next.js 13 playground.</p>
+          <h4>React + Nest.js + Postgres </h4>
+          <p>일반 취미생활 블로그 (광고문자때문에 닫아둠)</p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="shopping.dualssbb.com"
           className={styles.card}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="개인운영 쇼핑몰 (운영예정)"
         >
           <h2>
-            Deploy <span>-&gt;</span>
+           쇼핑몰(예정)<span>-&gt;</span>
           </h2>
+          <h4> Nuxt(vue3) + Nest.js + MariaDB + Postgres <span>-&gt;</span></h4>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            p-pack.co.kr -&gt; convert to (??) from cafe24
           </p>
         </a>
+
+        <a
+          href="shopping.dualssbb.com"
+          className={styles.card}
+          target="_blank"
+          rel="개인운영 쇼핑몰 (운영예정)"
+        >
+          <h2>
+           개인 FLEX서버 <span>-&gt;</span>
+          </h2>
+          <h4> ?? + NAS (예정) <span>-&gt;</span></h4>
+          <p>
+            개인 영상시청을 위한 프로젝트..
+          </p>
+        </a>
+
+
       </div>
     </main>
+
+
+
+
   )
 }
