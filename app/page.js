@@ -91,7 +91,7 @@ export default function Home() {
           <h2>
            쇼핑몰(예정)<span>-&gt;</span>
           </h2>
-          <h4> Nuxt(vue3) + Nest.js + MariaDB + Postgres <span>-&gt;</span></h4>
+          <h4> Nuxt(vue3) + Nest.js + MariaDB </h4>
           <p>
             p-pack.co.kr -&gt; convert to (??) from cafe24
           </p>
